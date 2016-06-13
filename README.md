@@ -13,7 +13,7 @@ I'd like to have them stored
 Write User stories/features for adding new links
 As a User
 So that I can add to my list of links
-I'd like to have a list that can be updated 
+I'd like to have a list that can be updated
 
 Write User stories/features for adding tags to links
 As a User
