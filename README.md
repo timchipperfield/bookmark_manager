@@ -9,10 +9,10 @@ I'd like Task.
 Write User stories/features for showing a list of links
 ```
 As a User
-So that I can see a list of links
-I'd like to have them stored
+So that I can go to websites I want to visit
+I'd like to access a stored list of links
 
-Write User stories/features for adding new links
+Write User stories/features for adding new links:
 As a User
 So that I can add to my list of links
 I'd like to have a list that can be updated
