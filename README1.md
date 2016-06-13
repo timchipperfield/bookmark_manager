@@ -6,6 +6,7 @@ So that Motivation,
 I'd like Task.
 
 Write User stories/features for showing a list of links
+```
 As a User
 So that I can see a list of links
 I'd like to have them stored
@@ -24,3 +25,4 @@ Write User stories/features for filtering links by a tag
 As a User
 So that I can search by link categories
 I'd like to filter my list by tags
+```
