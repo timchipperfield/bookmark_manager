@@ -1,4 +1,4 @@
-
+<!--
 We are going to build a bookmark manager, similar to pineapple.io or delicious.com in spirit. A bookmark manager is a good use case for exploring how relational databases work.
 
 As a <Stakeholder>,
@@ -23,4 +23,4 @@ I'd like to add tags
 Write User stories/features for filtering links by a tag
 As a User
 So that I can search by link categories
-I'd like to filter my list by tags
+I'd like to filter my list by tags -->
