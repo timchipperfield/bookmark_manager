@@ -12,6 +12,8 @@ end
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
 gem 'rspec-sinatra'
+gem 'sinatra-base'
+gem 'EmojifyRspecFormatter', '~> 0.1.4'
 
 
 
