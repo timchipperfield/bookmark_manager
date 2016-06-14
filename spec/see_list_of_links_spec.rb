@@ -6,7 +6,7 @@ feature 'present a list of links on page' do
     visit '/links'
     expect(page.status_code).to eq 200
     within 'ul#links' do
-      expect(page).to have_cotent('Makers Academy')
+      expect(page).to have_content('Makers Academy')
     end
   end
 end

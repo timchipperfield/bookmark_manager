@@ -1,7 +1,7 @@
 require 'sinatra/base'
 require './app/models/link'
 
-class Bookmark_manager < Sinatra::Base
+class BookmarkManager < Sinatra::Base
 
   get '/' do
     'Hello bookmark_manager!'
