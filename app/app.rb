@@ -1,3 +1,8 @@
+ENV['RACK_ENV'] ||= 'development'
+# APP_ROOT = File.expand_path File.join(__dir__, "..")
+# RACK_ENV = ENV['RACK_ENV']
+# Bundler.require(:default, RACK_ENV)
+
 require 'sinatra/base'
 require_relative 'models/link'
 
