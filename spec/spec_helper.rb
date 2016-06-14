@@ -10,10 +10,27 @@ require 'rspec'
 
 require './app/models/link.rb'
 require './app/app.rb'
+require 'database_cleaner'
 
 Capybara.app = BookmarkManager
 
 RSpec.configure do |config|
+
+  config.before(:suite) do
+    DatabaseCleaner.strategy = :transaction
+    DatabaseCleaner.clean_with(:truncation)
+  end
+
+  config.before(:each) do
+    DatabaseCleaner.start
+  end
+
+  # Everything in this block runs once after each individual test
+  config.after(:each) do
+    DatabaseCleaner.clean
+  end
+
+
   config.include Capybara::DSL
 
   config.expect_with :rspec do |expectations|
@@ -28,7 +45,3 @@ RSpec.configure do |config|
   end
 
 end
-
-
-
-
