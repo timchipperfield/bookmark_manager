@@ -4,7 +4,7 @@
 
 feature 'view links' do
   scenario 'view list of links on homepage' do
-    Links.create(url: 'http://www.salamanca24horas.com', title: 'Noticias Salamanca')
+    Link.create(url: 'http://www.salamanca24horas.com', title: 'Noticias Salamanca')
     visit '/links'
     expect(page.status_code).to eq 200
     within 'ul#links' do
