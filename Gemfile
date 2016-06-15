@@ -8,5 +8,5 @@ gem "datamapper"
 gem "dm-postgres-adapter"
 gem "rspec-sinatra"
 gem "capybara"
-gem "sinatra", '~>1.4.7'
+gem "sinatra"
 gem "database_cleaner"
