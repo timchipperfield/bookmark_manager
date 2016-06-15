@@ -5,7 +5,7 @@
     <li>
       Title: <%= link.title %>
       URL:   <%= link.url   %>
-      Tags:  <%= link.tags %>
+      Tags:  <%= link.tags.first.name if link.tags.first %>
     </li>
   <% end %>
 </ul>
