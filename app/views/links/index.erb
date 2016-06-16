@@ -5,7 +5,7 @@
     <li>
       Title: <%= link.title %>
       URL:   <%= link.url   %>
-      Tags:  <%= link.tags.first.name if link.tags.first %>
+      Tags:  <%= link.tags.map {|tag| tag.name if tag }.join(", ") %>
     </li>
   <% end %>
 </ul>

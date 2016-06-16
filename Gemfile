@@ -9,6 +9,7 @@ gem 'capybara'
 gem 'database_cleaner'
 gem 'rspec'
 gem 'sinatra'
+gem 'rake'
 
 
 
