@@ -4,7 +4,14 @@ require 'database_cleaner'
 require 'capybara/rspec'
 require './app/lib/link'
 require './app/app'
+require_relative 'helpers/session'
+
+
 Capybara.app = BookmarkManager
+
+RSpec.configure do |config|
+  config.include SessionHelpers
+end
 
 
 RSpec.configure do |config|
