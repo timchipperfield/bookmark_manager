@@ -10,6 +10,7 @@ gem 'database_cleaner'
 gem 'rspec'
 gem 'sinatra'
 gem 'rake'
+gem 'sinatra-flash'
 
 
 
